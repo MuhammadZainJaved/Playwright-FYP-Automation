@@ -75,7 +75,7 @@ def fetch_table_data(table_name):
         cursor = conn.cursor()
 
         # Fetch data from the specified table
-        query = f"SELECT * FROM {table_name};"
+        query = f"SELECT * FROM {table_name} ORDER BY id DESC;"
         cursor.execute(query)
         rows = cursor.fetchall()
 
