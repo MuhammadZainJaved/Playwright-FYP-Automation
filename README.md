@@ -32,4 +32,3 @@ This project simulates user traffic, evaluates heuristics to detect bot-like beh
 1. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
-   npm install
